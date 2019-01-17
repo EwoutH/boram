@@ -1,6 +1,7 @@
-language: node_js
+language: cpp
 
-node_js:
- - stable
+compiler:
+  - clang
+  - gcc
 
 script: scripts/make-mac64-deps.sh
